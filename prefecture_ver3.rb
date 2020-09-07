@@ -68,6 +68,7 @@ class Main
   end
 end
 
+
 main = Main.new
 main.show_prefecture
 main.question

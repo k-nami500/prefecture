@@ -34,7 +34,7 @@ class Main
   def show_prefecture
     puts "以下の都道府県から選択してください。"
     puts "＊＊＊＊＊＊＊＊＊＊＊＊"
-    prefecture_data.each do |answer|
+    @@prefecture_data.each do |answer|
       puts "#{answer.prefecture}"
     end
     puts "＊＊＊＊＊＊＊＊＊＊＊＊"
